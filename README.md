@@ -1,5 +1,5 @@
 # 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
-This is a complete, real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from [Zepto](https://www.zeptonow.com/) — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
+This is a real-world data analyst portfolio project based on an e-commerce inventory dataset scraped from [Zepto](https://www.zeptonow.com/) — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
 ## 📌 Project Overview
 
@@ -12,6 +12,16 @@ The goal is to simulate how actual data analysts in the e-commerce or retail ind
 ✅ Implement **Data Cleaning** to handle null values, remove invalid entries, and convert pricing from paise to rupees
 
 ✅ Write **business-driven SQL queries** to derive insights around **pricing, inventory, stock availability, revenue** and more
+
+## 🧰 Tools & Technologies
+
+- PostgreSQL
+  
+- SQL
+  
+- pgAdmin
+  
+- CSV Dataset
 
 ## 📁 Dataset Overview
 The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv) and was originally scraped from Zepto’s official product listings. It mimics what you’d typically encounter in a real-world e-commerce inventory system.
@@ -132,7 +142,7 @@ CREATE TABLE zepto (
 
       - Import the dataset (convert to UTF-8 if necessary)
   
-4. **Run the SQL Queries**
+4. **Execute the SQL Queries**
 
    Execute the queries in the SQL file to:
    
